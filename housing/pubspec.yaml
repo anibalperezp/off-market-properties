@@ -1,0 +1,129 @@
+name: zipcular
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Core dependencies
+  provider: ^6.0.5
+  equatable: ^2.0.3
+  font_awesome_flutter: ^10.5.0
+  http: ^1.1.0
+  intl: ^0.18.1
+  dio: ^5.3.2
+  formz: ^0.6.0
+  flutter_bloc: ^8.1.1
+
+  #Map dependencies
+  google_maps_flutter: ^2.2.4
+  geocoding: ^2.0.5
+ 
+  #Firebase dependencies
+  firebase_core: ^2.27.1
+  firebase_messaging: ^14.6.9
+  firebase_analytics: ^10.5.1
+  firebase_crashlytics: ^3.3.7
+
+  #Common dependencies
+  image_picker: ^1.0.4
+  confetti: ^0.7.0
+  dropdown_search: ^5.0.6
+  datetime_picker_formfield: ^2.0.0
+  flutter_typeahead: ^4.3.6
+  settings_ui: ^2.0.2
+  empty_widget: ^0.0.5
+  badges: ^3.1.2
+  multi_select_flutter: ^4.1.3
+  path_provider: ^2.0.13
+  flutter_cupertino_date_picker_fork: ^1.0.7
+  page_transition: ^2.0.9
+
+  #UI dependencies
+  flutter_image_compress: ^2.0.4
+  animate_do: ^3.1.2
+  flutter_verification_code: ^1.1.2+1
+  # simple_animations: ^4.2.0
+  supercharged: ^2.1.1
+  introduction_screen: ^3.1.4
+  mask_text_input_formatter: ^2.4.0
+  tuple: ^2.0.0
+  google_mobile_ads: ^3.0.0
+  overlay_support: ^2.0.1
+  url_launcher: ^6.1.5
+  getwidget: ^4.0.0
+  numberpicker: ^2.1.1
+  another_flushbar: ^1.12.29
+  easy_search_bar: ^2.4.2
+  animated_list_plus: ^0.5.2
+  image_cropper: ^5.0.0
+  maps_toolkit: ^2.0.1
+  banner_carousel: ^1.2.1
+  carousel_slider: ^4.2.1
+  package_info_plus: ^4.1.0
+  encrypt: ^5.0.1
+  photo_view: ^0.14.0
+  flutter_branch_sdk: ^6.6.0
+  flutter_multi_formatter: ^2.11.0
+  story: ^1.1.0
+  sliding_up_panel2: ^3.3.0+1
+  video_player: ^2.7.0
+  chewie: ^1.5.0
+  flutter_secure_storage: ^8.1.0
+  flutter_facebook_auth: ^6.0.1
+  facebook_auth_desktop: ^1.0.0
+  share_plus: ^7.1.0
+  web_socket_channel: ^2.4.0
+  timeago: ^3.5.0
+  flutter_slidable: ^3.0.0
+  flutter_app_badger: ^1.5.0
+  sa4_migration_kit: ^1.0.0
+  connectivity_plus: ^5.0.2
+  firebase_performance: ^0.9.3+5
+  in_app_review: ^2.0.8
+  location: ^5.0.3
+ 
+#Dev dependencies
+dev_dependencies:
+   flutter_test:
+     sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/icons/
+    - assets/images/markers/
+    - assets/fonts/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
