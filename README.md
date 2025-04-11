@@ -1,6 +1,7 @@
 Flutter Off-Market Real Estate App
 A cutting-edge Flutter application designed exclusively for off-market real estate opportunities, connecting investors with sellers in a streamlined, data-driven platform. This repository hosts an app engineered for both high performance and advanced user experiences, incorporating a rich array of features tailored to the unique demands of the real estate market.
-![1](https://github.com/user-attachments/assets/0a9692b5-86d5-48a5-8aeb-a758133734ca) ![5](https://github.com/user-attachments/assets/898fa461-40c9-47db-a03a-724f721ea474) ![2](https://github.com/user-attachments/assets/0e362edd-0da0-4cca-aef3-84867b051f0e)
+
+![1](https://github.com/user-attachments/assets/2e9e9d69-c4e4-4b58-a810-95c44a949889) ![2](https://github.com/user-attachments/assets/ed480604-c8e7-4267-86f3-791253a29407) ![3](https://github.com/user-attachments/assets/08e43f70-afea-42ef-810d-30bf123d8518)
 
 Overview
 This repository presents a comprehensive mobile solution that simplifies the discovery and management of off-market properties. The platform unifies advanced search, interactive mapping, secure communication, and robust storage mechanisms to empower both investors and sellers. Whether you’re sourcing high-potential deals or posting properties to gain maximum exposure, this app combines sophisticated backend integrations with a sleek, user-friendly interface.
